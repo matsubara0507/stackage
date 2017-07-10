@@ -1,6 +1,11 @@
 ghc-major-version: "8.0"
 # Constraints for brand new builds
 packages:
+    "Nobutada Matsubara <t12307043@gunma-u.ac.jp> @matsubara0507": []
+        # package temprarily removed as added while blocked on req-0.3.0;
+        # see https://github.com/fpco/stackage/issues/2641
+        # - chatwork
+
     "Pavol Klacansky <pavol@klacansky.com> @pavolzetor":
         - openexr-write
 
@@ -3137,6 +3142,11 @@ packages:
         - astro
         - mltool
 
+    "Edward Amsden <edwardamsden@gmail.com> @eamsden": []
+        # - h2c # freshly added package is missing headers:
+                # https://github.com/fpco/stackage/issues/2642
+        # - bno055-haskell
+
     # If you stop maintaining a package you can move it here.
     # It will then be disabled if it starts causing problems.
     # See https://github.com/fpco/stackage/issues/1056
@@ -3284,6 +3294,9 @@ packages:
 
         # https://github.com/fpco/stackage/issues/2636
         - hashable < 1.2.6.1
+
+        # https://github.com/fpco/stackage/issues/2640
+        - hoauth2 < 1.3.0
 
 # end of packages
 
