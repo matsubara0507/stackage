@@ -1111,12 +1111,11 @@ packages:
         - bank-holidays-england
 
     "Haskell Servant <jkarni@gmail.com>":
-        []
-        # - servant # GHC 8.2.1
+        - servant # GHC 8.2.1
         # - servant-client # GHC 8.2.1
         # - servant-docs # GHC 8.2.1
         # - servant-js # GHC 8.2.1 via language-ecmascript
-        # - servant-server # GHC 8.2.1
+        - servant-server # GHC 8.2.1
         # - servant-lucid # GHC 8.2.1
         # - servant-blaze # GHC 8.2.1
         # - servant-foreign # GHC 8.2.1
